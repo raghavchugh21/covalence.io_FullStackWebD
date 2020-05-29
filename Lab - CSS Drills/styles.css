@@ -1,0 +1,94 @@
+body{
+    font-family: 'Chelsea Market', cursive;
+    background-color: lightgrey;
+}
+
+.center-text h2, .center-text p, .center-text .readme-wrapper{
+    text-align: center;
+}
+
+a{
+    color: mediumblue;
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    font: bold;
+    color: midnightblue;
+}
+
+.new {
+    color:green;
+    font-weight: 700;
+}
+
+.boxes{
+    width: 15.88em;
+    margin: 1em;
+    padding: 1em;
+    border-style: solid;
+    border-color:blue;
+    border-radius: 1em;
+    border-width: 0.5rem;
+}
+
+#box1 {
+    background-color: lightpink;
+}
+#box2 {
+    background-color: lightpink;
+}
+#box3 {
+    background-color: lightpink;
+}
+#box4 {
+    background-color: lightpink;
+}
+
+.custom{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: yellow;
+    position: absolute;
+}
+
+h1.original{
+    color:blue
+}
+h1.additional{
+    color:blueviolet;
+}
+#show1{
+    color: brown;
+}
+
+#show2{
+    color: brown;
+}
+
+#show3{
+    color: brown;
+}
+
+#show4{
+    color: brown;
+}
+
+#show5{
+    color: brown;
+}
+.star{
+    color: purple;
+}
+#wars{
+    color: red;
+}
+
+div{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 0.5em;
+}
