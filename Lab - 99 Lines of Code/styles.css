@@ -1,0 +1,12 @@
+html{
+    background-color: peachpuff;
+}
+h1{
+    color: crimson;
+}
+.friend{
+    background-color: orange;
+}
+div.friend h3{
+    text-transform: capitalize;
+}
