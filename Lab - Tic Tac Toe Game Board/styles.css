@@ -2,10 +2,13 @@
     padding: 3em;
     text-align: center;
 }
-div.row > div{
+.row > div{
     float: left;
     height: 100px;
     width: 100px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 5.2em;;
 }
 
 .row{
