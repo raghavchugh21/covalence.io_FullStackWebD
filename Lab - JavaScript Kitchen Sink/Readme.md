@@ -1,3 +1,5 @@
+ ## **Lab - JavaScript Kitchen Sink**
+ 
  1. Create a new project folder and copy this lab into a README.md file.
  2. Create an index.html file and an app.js file and link the two
     together with a script tag.
