@@ -1,0 +1,16 @@
+.black-square {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+body {
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
