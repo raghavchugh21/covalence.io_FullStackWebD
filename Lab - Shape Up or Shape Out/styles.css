@@ -1,0 +1,21 @@
+.input-group{
+    width: 10px;
+}
+.box{
+    height: 600px;
+    width: 600px;
+    background-color: orange;
+    opacity: 60%;
+}
+.sidepanel{ 
+    padding: 50px;
+    width: 30%; /* Set the width of the sidebar */
+    background-color: purple; /* Black */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.canvas{
+    display: flex;
+}
+
