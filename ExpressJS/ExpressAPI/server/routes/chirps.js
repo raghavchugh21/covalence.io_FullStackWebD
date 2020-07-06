@@ -1,5 +1,7 @@
 const chirpStore = require('../chirpstore')
 const express = require('express');
+let fs = require('fs');
+let path = require('path');
 
 let chirpRouter = express.Router();
 
