@@ -17,17 +17,17 @@ chirpRouter.get('/:id?', (req,res)=>{
 
 chirpRouter.post('/', (req,res)=>{
     chirpStore.CreateChirp(req.body);
-    res.sendStatus(200);
+    //res.sendStatus(200);
 });
 
 chirpRouter.put('/:id', (req,res)=>{
     chirpStore.UpdateChirp(req.params.id, req.body);
-    res.sendStatus(200);
+    //res.sendStatus(200);
 });
 
 chirpRouter.delete('/:id', (req,res)=>{
     chirpStore.DeleteChirp(req.params.id);
-    res.sendStatus(200);
+    //res.sendStatus(200);
 });
 
 module.exports = chirpRouter;
