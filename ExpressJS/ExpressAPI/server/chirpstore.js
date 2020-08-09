@@ -25,6 +25,7 @@ let updateChirp = (id, chirp) => {
 
 let deleteChirp = id => {
     delete chirps[id];
+    chirps.nextid--;
     writeChirps();
 }
 
